@@ -54,7 +54,7 @@ Kingdom Hearts and Yu-Gi-Oh are taking up most of my non-work hours lately. I Sp
 <a name="italiano"></a>
 ## Italiano
 
-Amministratore di sistemi in formazione, basato a Vasto, in Abruzzo.
+Amministratore di sistemi in formazione, situato a Vasto, in Abruzzo.
 
 Ho iniziato a smontare hardware e software intorno al 2012/2013, quando ho flashato CyanogenMod 10 su un Galaxy S3 Exynos e ho passato un bel po' di tempo a combattere con il driver della fotocamera — sull'Exynos la fotocamera non si inizializzava correttamente con le custom ROM, finché qualcuno non rilasciò un modulo da flashare tramite ClockworkMod Recovery che finalmente risolse il problema. Più o meno da lì è partito tutto. Da allora sono passato per un OnePlus One con CyanogenOS (poi OxygenOS), un Redmi Note 3 Pro (kenzo), un Redmi Note 5 Pro (whyred), e ora sono su OnePlus 8T — ancora moddato. Negli stessi anni ho iniziato anche a mettere le mani sul PC: ho cambiato la RAM, provato ogni versione di Windows che usciva, e quando è arrivato Windows 10 ho cominciato a smontarlo per renderlo usabile davvero. Quella abitudine non è mai passata.
 
