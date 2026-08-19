@@ -1,5 +1,7 @@
 # Eleonardo Bajramovski (Neniku)
 
+> Systems administrator in training · Linux · Docker · DevSecOps · Vasto, Italy
+
 [English](#english) · [Italiano](#italiano)
 
 ---
@@ -7,13 +9,11 @@
 <a name="english"></a>
 ## English
 
-Systems administrator in training, based in Vasto, Italy.
-
-I've been taking hardware and software apart since 2012/2013. It started with CyanogenMod 10 on a Galaxy S3 Exynos — the camera wouldn't initialize under custom ROMs because of a driver issue specific to the Exynos variant, and it took finding the right kernel module to flash via ClockworkMod Recovery to get it working. That kind of problem stuck with me: find the root cause, find the fix, understand why it works.
+I've been taking hardware and software apart since 2012/2013. It started with CyanogenMod 10 on a Galaxy S3 Exynos — the camera driver had a known compatibility issue with the Exynos variant under custom ROMs, and getting it working meant tracking down a dedicated kernel module and flashing it through ClockworkMod Recovery. That kind of problem stuck with me: find the root cause, find the fix, understand why it works.
 
 From there the path went through a OnePlus One (CyanogenOS, then OxygenOS, then Tuga Power as daily ROM), the OnePlus One Italia Telegram group, and eventually into international XDA communities where I picked up the habit of following development threads and reading changelogs like other people read the news. After the OnePlus One came a Redmi Note 3 Pro (kenzo), a Redmi Note 5 Pro (whyred), and now a OnePlus 8T — still modded. The Android side never really stopped.
 
-Around the same time I was doing all of this on phones, I started doing the same on my PC. Swapped RAM, dual-booted everything that came out, and when Windows 10 arrived I started stripping it down to build something actually usable. That habit carried over into Linux, self-hosting, scripting, and eventually into a proper interest in security and DevSecOps.
+Around the same time, I started doing the same on my PC: upgraded the RAM, dual-booted every OS that came out, and when Windows 10 arrived I began stripping it down to build something actually usable. That habit carried over into Linux, self-hosting, scripting, and eventually into a serious interest in security and DevSecOps.
 
 ---
 
@@ -28,7 +28,7 @@ My main box is a Lenovo IdeaPad Gaming 3 (15ACH6) I call **Frankenstein** — no
 | RAM | 32GB Lexar DDR4 3200MHz |
 | Storage | Samsung 990 Pro 1TB (NVMe) + Crucial 1TB (M.2 2242) |
 | Display | 165Hz panel (replaced) |
-| Cooling | Arctic MX-7 thermal paste, mild OC via MSI Afterburner |
+| Cooling | Arctic MX-7 thermal paste · mild OC via MSI Afterburner |
 
 It dual boots **Windows 11** (stripped with ChrisTitus tool and Winhance, styled with Windhawk and Start11 v2) and **Pop!_OS**, where I do most of the actual work. VMs live on a shared SSD partition, accessible from both sides.
 
@@ -37,6 +37,7 @@ It dual boots **Windows 11** (stripped with ChrisTitus tool and Winhance, styled
 ### The server
 
 A separate MX Linux machine running:
+
 - Jellyfin media server
 - Docker containers for various self-hosted services
 - Palworld dedicated server (for me, my brother-in-law and my nephews)
@@ -46,17 +47,33 @@ A separate MX Linux machine running:
 
 ### What I work with
 
-**Systems & infrastructure**
+<details>
+<summary>Systems & infrastructure</summary>
+
 Linux (Debian-based, Pop!_OS, MX Linux), Docker, Tailscale, Nginx, Windows
 
-**Scripting & automation**
+</details>
+
+<details>
+<summary>Scripting & automation</summary>
+
 Bash, Python, YAML, GitHub Actions
 
-**Security**
+</details>
+
+<details>
+<summary>Security</summary>
+
 Trivy, OWASP ZAP, SBOM/supply chain analysis, DAST pipelines, FlareVM, CAINE
 
-**Homelab tools**
+</details>
+
+<details>
+<summary>Homelab</summary>
+
 Jellyfin, Sonarr, Radarr, MedicatedUSB, custom bootable USB environments
+
+</details>
 
 ---
 
@@ -78,7 +95,7 @@ Jellyfin, Sonarr, Radarr, MedicatedUSB, custom bootable USB environments
 
 ### Outside the terminal
 
-Kingdom Hearts and Yu-Gi-Oh are taking up most of my free time lately. I spend more time than I should reading patch notes for games I host but barely get to play.
+Kingdom Hearts and Yu-Gi-Oh are taking up most of my free time lately. I spend more time than I should reading patch notes for games I host but rarely get to play.
 
 [LinkedIn](https://www.linkedin.com/in/eleonardo-bajramovski-7599a7372/)
 
@@ -87,13 +104,11 @@ Kingdom Hearts and Yu-Gi-Oh are taking up most of my free time lately. I spend m
 <a name="italiano"></a>
 ## Italiano
 
-Amministratore di sistemi in formazione, basato a Vasto, in Abruzzo.
-
-Smonto hardware e software dal 2012/2013. È iniziato con CyanogenMod 10 su un Galaxy S3 Exynos — la fotocamera non si inizializzava con le custom ROM a causa di un problema del driver specifico della variante Exynos, e ci è voluto trovare il modulo giusto da flashare tramite ClockworkMod Recovery per farlo funzionare. Quel tipo di problema mi è rimasto in testa: trovare la causa, trovare la soluzione, capire perché funziona.
+Smonto hardware e software dal 2012/2013. È iniziato con CyanogenMod 10 su un Galaxy S3 Exynos — il driver della fotocamera aveva un problema di compatibilità noto sulla variante Exynos con le custom ROM, e per farlo funzionare ho dovuto scovare un modulo kernel dedicato e flasharlo tramite ClockworkMod Recovery. Quel tipo di problema mi è rimasto in testa: trovare la causa, trovare la soluzione, capire perché funziona.
 
 Da lì il percorso è passato per un OnePlus One (CyanogenOS, poi OxygenOS, poi Tuga Power come ROM quotidiana), il gruppo Telegram OnePlus One Italia, e alla fine le community internazionali su XDA, dove ho preso l'abitudine di seguire i thread di sviluppo e leggere i changelog come altri leggono le notizie. Dopo il OnePlus One sono arrivati un Redmi Note 3 Pro (kenzo), un Redmi Note 5 Pro (whyred), e ora un OnePlus 8T — ancora moddato. Il lato Android non si è mai fermato davvero.
 
-Nello stesso periodo in cui facevo tutto questo sui telefoni, ho iniziato a fare lo stesso sul PC. Cambiate le RAM, dual boot di tutto quello che usciva, e quando è arrivato Windows 10 ho cominciato a smontarlo per costruire qualcosa di effettivamente usabile. Quell'abitudine si è trasferita su Linux, il self-hosting, lo scripting, e alla fine su un interesse serio per la security e il DevSecOps.
+Nello stesso periodo ho iniziato a fare lo stesso sul PC: aggiornata la RAM, dual boot di tutto quello che usciva, e quando è arrivato Windows 10 ho cominciato a smontarlo per costruire qualcosa di effettivamente usabile. Quell'abitudine si è estesa a Linux, al self-hosting, alla scripting, e alla fine a un interesse serio per la security e il DevSecOps.
 
 ---
 
@@ -108,7 +123,7 @@ Il mio PC principale è un Lenovo IdeaPad Gaming 3 (15ACH6) che chiamo **Franken
 | RAM | 32GB Lexar DDR4 3200MHz |
 | Storage | Samsung 990 Pro 1TB (NVMe) + Crucial 1TB (M.2 2242) |
 | Display | Pannello 165Hz (sostituito) |
-| Raffreddamento | Pasta termica Arctic MX-7, leggero OC via MSI Afterburner |
+| Raffreddamento | Pasta termica Arctic MX-7 · leggero OC via MSI Afterburner |
 
 Dual boot tra **Windows 11** (ripulito con ChrisTitus tool e Winhance, personalizzato con Windhawk e Start11 v2) e **Pop!_OS**, dove faccio la maggior parte del lavoro reale. Le VM stanno su una partizione SSD condivisa, accessibile da entrambi i lati.
 
@@ -117,6 +132,7 @@ Dual boot tra **Windows 11** (ripulito con ChrisTitus tool e Winhance, personali
 ### Il server
 
 Una macchina separata con MX Linux che gestisce:
+
 - Jellyfin come media server
 - Container Docker per vari servizi self-hosted
 - Server dedicato di Palworld (per me, mio cognato e i miei nipoti)
@@ -126,17 +142,33 @@ Una macchina separata con MX Linux che gestisce:
 
 ### Con cosa lavoro
 
-**Sistemi & infrastruttura**
+<details>
+<summary>Sistemi & infrastruttura</summary>
+
 Linux (Debian-based, Pop!_OS, MX Linux), Docker, Tailscale, Nginx, Windows
 
-**Scripting & automazione**
+</details>
+
+<details>
+<summary>Scripting & automazione</summary>
+
 Bash, Python, YAML, GitHub Actions
 
-**Sicurezza**
+</details>
+
+<details>
+<summary>Sicurezza</summary>
+
 Trivy, OWASP ZAP, analisi SBOM/supply chain, pipeline DAST, FlareVM, CAINE
 
-**Homelab**
+</details>
+
+<details>
+<summary>Homelab</summary>
+
 Jellyfin, Sonarr, Radarr, MedicatedUSB, ambienti USB avviabili personalizzati
+
+</details>
 
 ---
 
@@ -158,6 +190,6 @@ Jellyfin, Sonarr, Radarr, MedicatedUSB, ambienti USB avviabili personalizzati
 
 ### Fuori dal terminale
 
-Ultimamente Kingdom Hearts e Yu-Gi-Oh si stanno prendendo la maggior parte del tempo libero. Passo più tempo del dovuto a leggere patch note di giochi che hosto ma che fatico a trovare il tempo di giocare.
+Ultimamente Kingdom Hearts e Yu-Gi-Oh occupano la maggior parte del tempo libero. Passo più tempo del necessario a leggere le note di aggiornamento di giochi che ospito sui miei server ma che riesco raramente a giocare.
 
 [LinkedIn](https://www.linkedin.com/in/eleonardo-bajramovski-7599a7372/)
