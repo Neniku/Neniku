@@ -30,7 +30,6 @@ Currently deepening my skills in:
 **OS & Infra**
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat&logo=linux&logoColor=black)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
-![TrueNAS](https://img.shields.io/badge/TrueNAS-0095D5?style=flat&logo=truenas&logoColor=white)
 ![Tailscale](https://img.shields.io/badge/Tailscale-5B4FBE?style=flat&logo=tailscale&logoColor=white)
 
 **Languages & Scripting**
