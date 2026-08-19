@@ -78,7 +78,7 @@ Jellyfin, Sonarr, Radarr, MedicatedUSB, custom bootable USB environments
 
 ### Outside the terminal
 
-Kingdom Hearts and Yu-Gi-Oh are taking up most of my free time lately. I collect Swatch watches and spend more time than I should reading patch notes for games I host but barely get to play.
+Kingdom Hearts and Yu-Gi-Oh are taking up most of my free time lately. I spend more time than I should reading patch notes for games I host but barely get to play.
 
 [LinkedIn](https://www.linkedin.com/in/eleonardo-bajramovski-7599a7372/)
 
@@ -158,6 +158,6 @@ Jellyfin, Sonarr, Radarr, MedicatedUSB, ambienti USB avviabili personalizzati
 
 ### Fuori dal terminale
 
-Ultimamente Kingdom Hearts e Yu-Gi-Oh si stanno prendendo la maggior parte del tempo libero. Colleziono orologi Swatch e passo più tempo del dovuto a leggere patch note di giochi che hosto ma che fatico a trovare il tempo di giocare.
+Ultimamente Kingdom Hearts e Yu-Gi-Oh si stanno prendendo la maggior parte del tempo libero. Passo più tempo del dovuto a leggere patch note di giochi che hosto ma che fatico a trovare il tempo di giocare.
 
 [LinkedIn](https://www.linkedin.com/in/eleonardo-bajramovski-7599a7372/)
