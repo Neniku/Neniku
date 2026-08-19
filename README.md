@@ -70,7 +70,6 @@ When I'm not in front of a shell, you'll probably find me:
 - 🃏 Building competitive **Yu-Gi-Oh!** decks and collecting cards
 - 🎮 Playing retro games — *NFS Underground*, *Kingdom Hearts* — sometimes with ray tracing mods
 - 📱 Flashing custom ROMs and modding Android devices (OnePlus 8T)
-- ⌚ Collecting **Swatch** watches
 
 ---
 
