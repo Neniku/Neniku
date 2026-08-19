@@ -2,11 +2,11 @@
 
 Systems administrator in training, based in Vasto, Italy.
 
-I started tinkering with hardware and software around 2011-2012, when I flashed CyanogenMod 10 on a Galaxy S3 Exynos and spent a week fighting with the broken camera driver. That's more or less where everything started. Since then I've gone through a OnePlus One with CyanogenOS (then OxygenOS), a Redmi Note 3 Pro (kenzo), a Redmi Note 5 Pro (whyred), and I'm currently on a OnePlus 8T — still modded. Somewhere around those same years I also started taking apart my PC: swapped RAM, tried every version of Windows that came out, and when Windows 10 arrived I began stripping it down to make it actually usable. That habit stuck.
+I started tinkering with hardware and software around 2012/2013, when I flashed CyanogenMod 10 on a Galaxy S3 Exynos and spent a good while fighting with the camera driver — on Exynos the camera wouldn't initialize properly under custom ROMs, until someone released a module you could flash through ClockworkMod Recovery that finally fixed it. That's more or less where everything started. Since then I've gone through a OnePlus One with CyanogenOS (then OxygenOS), a Redmi Note 3 Pro (kenzo), a Redmi Note 5 Pro (whyred), and I'm currently on a OnePlus 8T — still modded. Somewhere around those same years I also started taking apart my PC: swapped RAM, tried every version of Windows that came out, and when Windows 10 arrived I began stripping it down to make it actually usable. That habit stuck.
 
 Today my main machine is a Lenovo IdeaPad Gaming 3 (15ACH6) I call Frankenstein: 32GB RAM, two 1TB SSDs (Samsung 990 Pro + Crucial M.2 2242), display swapped for a 165Hz panel, fresh thermal paste (MX-7), mild overclock via MSI Afterburner. It dual boots a debloated Windows 11 (ChrisTitus tool + Winhance, styled with Windhawk and Start11 v2) and Pop!_OS, where I do most of my actual work and run VMs. The VMs live on a shared SSD so they're accessible from both sides of the dual boot.
 
-On the server side I run a TrueNAS Scale machine that handles NAS storage, self-hosted media (Jellyfin), Docker containers and a Palworld dedicated server for family use — me, my brother-in-law and my nephews. Everything behind Tailscale and a reverse proxy.
+On the server side I run an MX Linux machine that handles NAS storage, self-hosted media (Jellyfin), Docker containers and a Palworld dedicated server for family use — me, my brother-in-law and my nephews. Everything behind Tailscale and a reverse proxy.
 
 The security and DevSecOps path came later, through a cybersecurity course and a lot of hands-on practice: container scanning with Trivy, DAST pipelines with OWASP ZAP, SBOM generation, GitHub Actions CI/CD. That's the direction I'm heading professionally.
 
@@ -15,7 +15,7 @@ The security and DevSecOps path came later, through a cybersecurity course and a
 ## What I work with
 
 **Systems & infrastructure**
-Linux (Debian-based, Pop!_OS), Docker, TrueNAS Scale, Tailscale, Nginx reverse proxy, Windows (heavily customized)
+Linux (Debian-based, Pop!_OS, MX Linux), Docker, Tailscale, Nginx reverse proxy, Windows (heavily customized)
 
 **Scripting & automation**
 Bash, Python, YAML, GitHub Actions
@@ -32,7 +32,7 @@ Jellyfin, Sonarr, Radarr, self-hosted game servers, MedicatedUSB, custom bootabl
 
 - Container vulnerability scanning and SBOM generation
 - DAST integration in CI/CD pipelines
-- ZFS management on TrueNAS Scale
+- ZFS management
 - GPU transcoding for self-hosted media
 
 ---
