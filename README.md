@@ -45,7 +45,7 @@ Jellyfin, Sonarr, Radarr, self-hosted game servers, MedicatedUSB, custom bootabl
 
 ### Outside the terminal
 
-Kingdom Hearts and Yu-Gi-Oh are taking up most of my non-work hours lately. I also collect Swatch watches and still spend more time than I should reading patch notes for games I host but barely have time to play.
+Kingdom Hearts and Yu-Gi-Oh are taking up most of my non-work hours lately. I Spend more time than I should reading patch notes for games I host but barely have time to play.
 
 [LinkedIn](https://www.linkedin.com/in/eleonardo-bajramovski-7599a7372/)
 
@@ -92,6 +92,6 @@ Jellyfin, Sonarr, Radarr, server di gioco self-hosted, MedicatedUSB, ambienti US
 
 ### Fuori dal terminale
 
-Ultimamente Kingdom Hearts e Yu-Gi-Oh si stanno prendendo la maggior parte del tempo libero. Colleziono anche orologi Swatch e passo ancora più tempo del dovuto a leggere patch note di giochi che hosto ma che fatico a trovare il tempo di giocare.
+Ultimamente Kingdom Hearts e Yu-Gi-Oh si stanno prendendo la maggior parte del tempo libero. Passo ancora più tempo del dovuto a leggere patch note di giochi che hosto ma che fatico a trovare il tempo di giocare.
 
 [LinkedIn](https://www.linkedin.com/in/eleonardo-bajramovski-7599a7372/)
