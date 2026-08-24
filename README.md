@@ -90,6 +90,7 @@ Jellyfin, Sonarr, Radarr, MedicatedUSB, ambienti USB personalizzati avviabili
 
 - [Backup_script_Cyborg](https://github.com/Neniku/Backup_script_Cyborg) — script Bash per backup automatizzato con cifratura, verifica SHA256, upload ridondante su SFTP e SMB, checkpoint per riprendere in caso di interruzione e report HTML finale. Evoluzione di [Backup_script_Umano](https://github.com/Neniku/Backup_script_Umano).
 - [Metodi_Di_Compressione](https://github.com/Neniku/Metodi_Di_Compressione) — appunti e slide sugli algoritmi di compressione più comuni e i loro casi d'uso reali.
+- [ScanPy](https://github.com/GruppoDueMAEMA/ScanPy) — progetto di gruppo realizzato a scuola: scanner di rete Python multi-thread per host discovery, scansioni TCP/UDP e fingerprinting passivo del sistema operativo.
 
 ---
 
@@ -185,6 +186,7 @@ Jellyfin, Sonarr, Radarr, MedicatedUSB, custom bootable USB environments
 
 - [Backup_script_Cyborg](https://github.com/Neniku/Backup_script_Cyborg) — Bash script for automated backups with encryption, SHA256 verification, redundant upload to SFTP and SMB, checkpoint/resume on interruption, and a final HTML report. Evolution of [Backup_script_Umano](https://github.com/Neniku/Backup_script_Umano).
 - [Metodi_Di_Compressione](https://github.com/Neniku/Metodi_Di_Compressione) — notes and slides on common compression algorithms and their real-world use cases.
+- [ScanPy](https://github.com/GruppoDueMAEMA/ScanPy) — school group project: multi-threaded Python network scanner for host discovery, TCP/UDP scans, and passive OS fingerprinting.
 
 ---
 
