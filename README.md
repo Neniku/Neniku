@@ -1,6 +1,6 @@
 # Eleonardo Bajramovski
 
-> Amministratore di sistemi in formazione &nbsp;&middot;&nbsp; Linux &nbsp;&middot;&nbsp; Docker &nbsp;&middot;&nbsp; DevSecOps &nbsp;&middot;&nbsp; Vasto (CH)
+> Junior Cybersecurity &amp; DevSecOps Specialist &nbsp;&middot;&nbsp; Linux &nbsp;&middot;&nbsp; Docker &nbsp;&middot;&nbsp; Wazuh SIEM &nbsp;&middot;&nbsp; Vasto (CH)
 
 [Italiano](#italiano) &nbsp;&middot;&nbsp; [English](#english)
 
@@ -13,7 +13,7 @@ Ho iniziato a smontare hardware e software intorno al 2012/2013, quando ho flash
 
 Dopo il Galaxy S3 sono passato al OnePlus One, che all'epoca era il telefono della community per eccellenza: veniva venduto con CyanogenOS di serie, poi è passato alla OxygenOS, e io ho finito con Tuga Power come ROM quotidiana. Tramite il gruppo Telegram OnePlus One Italia ho scoperto un mondo: da lì sono entrato in community internazionali su XDA, ho iniziato a seguire thread di sviluppo, leggere changelog e capire come lavorano i developer di custom ROM. Quella porta non si è mai richiusa. Dopo il OnePlus One sono arrivati un Redmi Note 3 Pro (kenzo), un Redmi Note 5 Pro (whyred), e oggi sono su OnePlus 8T — ancora modificato.
 
-Negli stessi anni ho iniziato a fare lo stesso con il PC. Ho cambiato le RAM quando ancora 8GB sembravano tantissimi, ho installato ogni versione di Windows che usciva, e quando è arrivato Windows 10 ho cominciato a modificarlo in modo sistematico per renderlo più leggero e personale. Quella mentalità si è poi spostata su Linux, il self-hosting, l'automazione, e alla fine su un interesse concreto per la sicurezza informatica e il DevSecOps.
+Negli stessi anni ho iniziato a fare lo stesso con il PC. Ho cambiato le RAM quando ancora 8GB sembravano tantissimi, ho installato ogni versione di Windows che usciva, e quando è arrivato Windows 10 ho cominciato a modificarlo in modo sistematico per renderlo più leggero e personale. Quella mentalità si è poi spostata su Linux, il self-hosting, l'automazione, e alla fine su un percorso concreto nella sicurezza informatica e nel DevSecOps.
 
 ---
 
@@ -30,18 +30,18 @@ Il mio PC si chiama **Frankenstein** — un Lenovo IdeaPad Gaming 3 (15ACH6) mod
 | Display | Pannello da 165 Hz (sostituito) |
 | Raffreddamento | Pasta termica Arctic MX-7 &nbsp;&middot;&nbsp; overclock leggero via MSI Afterburner |
 
-Gira in dual boot tra **Windows 11** — alleggerito con ChrisTitus tool e Winhance, personalizzato graficamente con Windhawk e Start11 v2 — e **Pop!_OS**, dove faccio la maggior parte del lavoro. Le macchine virtuali vivono su una partizione SSD condivisa, raggiungibile da entrambi i sistemi.
+Il mio daily driver ormai è **GarudaOS (Arch Linux, kernel CachyOS)**, dove faccio tutto il lavoro quotidiano, affiancato in dual boot da una partizione **Windows 11** alleggerita (ChrisTitus tool, Winhance, Windhawk, Start11 v2). Le macchine virtuali vivono su una partizione SSD condivisa, raggiungibile da entrambi i sistemi.
 
 ---
 
 ### Il server
 
-Una macchina separata con MX Linux, che fa da server per tutto:
+Una macchina separata con **Debian**, che ospita l'intera infrastruttura self-hosted (documentata in [homeserver-infrastructure](https://github.com/Neniku/homeserver-infrastructure)):
 
-- Media server con Jellyfin
-- Vari servizi self-hosted in container Docker
+- Stack modulari in Docker Compose con database PostgreSQL su rete isolata e container hardened
+- Media server con Jellyfin e servizi gestionali per l'attività commerciale di famiglia
 - Server dedicato di Palworld per me, mio cognato e i miei nipoti
-- Tutto esposto tramite Tailscale e un reverse proxy Nginx
+- Nessuna porta esposta su Internet: accesso esclusivamente tramite VPN mesh Zero Trust (Tailscale), reverse proxy Nginx e backup notturni cifrati con Systemd Timers
 
 ---
 
@@ -50,28 +50,28 @@ Una macchina separata con MX Linux, che fa da server per tutto:
 <details>
 <summary>Sistemi e infrastruttura</summary>
 
-Linux (Debian, Pop!_OS, MX Linux), Docker, Tailscale, Nginx, Windows
+Linux (GarudaOS / Arch Linux, Debian, Ubuntu), Docker, Docker Compose, Podman, Kubernetes, Helm, Tailscale, Nginx, Windows
 
 </details>
 
 <details>
 <summary>Scripting e automazione</summary>
 
-Bash, Python, YAML, GitHub Actions
+Bash, Python, PowerShell, YAML, GitHub Actions
 
 </details>
 
 <details>
 <summary>Sicurezza informatica</summary>
 
-Trivy, OWASP ZAP, analisi SBOM e supply chain, pipeline DAST, FlareVM, CAINE
+Wazuh SIEM (FIM, custom detection rules), Hadolint, Gitleaks, Trivy, Semgrep, OWASP ZAP, Nmap, Wireshark, tcpdump, Burp Suite, Metasploit, REMnux, FLARE VM, CAINE
 
 </details>
 
 <details>
 <summary>Homelab</summary>
 
-Jellyfin, Sonarr, Radarr, MedicatedUSB, ambienti USB personalizzati avviabili
+Jellyfin, Sonarr, Radarr, PostgreSQL, MedicatedUSB, ambienti USB personalizzati avviabili
 
 </details>
 
@@ -79,18 +79,21 @@ Jellyfin, Sonarr, Radarr, MedicatedUSB, ambienti USB personalizzati avviabili
 
 ### Cosa sto studiando
 
-- Vulnerability scanning su container e generazione di SBOM
-- Integrazione di test DAST nelle pipeline CI/CD
-- Gestione ZFS
-- Transcoding GPU per il media server
+- Preparazione certificazione **CompTIA CySA+ (Cybersecurity Analyst)**
+- Detection engineering e regole custom su **Wazuh SIEM**
+- Vulnerability scanning su container, generazione di SBOM e test SAST/DAST nelle pipeline CI/CD
+- Gestione ZFS e transcoding GPU per il media server
 
 ---
 
 ### Progetti
 
-- [Backup_script_Cyborg](https://github.com/Neniku/Backup_script_Cyborg) — script Bash per backup automatizzato con cifratura, verifica SHA256, upload ridondante su SFTP e SMB, checkpoint per riprendere in caso di interruzione e report HTML finale. Evoluzione di [Backup_script_Umano](https://github.com/Neniku/Backup_script_Umano).
+- [homeserver-infrastructure](https://github.com/Neniku/homeserver-infrastructure) — architettura completa del mio Home Server su Debian: stack Docker Compose modulari, rete Zero Trust con Tailscale (zero porte esposte), PostgreSQL isolato e hardened, monitoraggio custom e backup notturni cifrati con Systemd Timers.
+- [devsecops-journey](https://github.com/Neniku/devsecops-journey) — percorso pratico intensivo su Docker, container hardening (`cap_drop`, `no-new-privileges`, Docker Secrets), pipeline GitHub Actions (Hadolint, Gitleaks, Trivy con report SARIF), Kubernetes, Helm, Wazuh SIEM e Incident Response.
+- [Backup_script_Cyborg](https://github.com/Neniku/Backup_script_Cyborg) — suite Bash CLI/GUI (Zenity) per backup automatizzato con cifratura AES-256, verifica SHA-256, upload ridondante su SFTP e SMB, checkpoint/resume e report HTML finale. Evoluzione di [Backup_script_Umano](https://github.com/Neniku/Backup_script_Umano).
+- [android-adb-exploit-research](https://github.com/Neniku/android-adb-exploit-research) — PoC didattica in ambiente di laboratorio autorizzato sull'esposizione della porta ADB (TCP 5555) su dispositivi Android/IoT, con analisi delle contromisure e ripristino del dispositivo.
 - [Metodi_Di_Compressione](https://github.com/Neniku/Metodi_Di_Compressione) — appunti e slide sugli algoritmi di compressione più comuni e i loro casi d'uso reali.
-- [ScanPy](https://github.com/GruppoDueMAEMA/ScanPy) — progetto di gruppo realizzato a scuola: scanner di rete Python multi-thread per host discovery, scansioni TCP/UDP e fingerprinting passivo del sistema operativo.
+- [ScanPy](https://github.com/GruppoDueMAEMA/ScanPy) — progetto di gruppo: scanner di rete Python multi-thread per host discovery, scansioni TCP/UDP e fingerprinting passivo del sistema operativo.
 
 ---
 
@@ -98,7 +101,7 @@ Jellyfin, Sonarr, Radarr, MedicatedUSB, ambienti USB personalizzati avviabili
 
 Ultimamente Kingdom Hearts e Yu-Gi-Oh si stanno prendendo buona parte del tempo libero. Ospito anche un server di Palworld per la famiglia, il che significa che passo più tempo a gestire il server che a giocare davvero.
 
-[LinkedIn](https://www.linkedin.com/in/eleonardo-bajramovski-7599a7372/)
+[LinkedIn](https://www.linkedin.com/in/eleonardo-bajramovski/)
 
 ---
 
@@ -109,7 +112,7 @@ I started taking hardware and software apart around 2012/2013, when I flashed Cy
 
 After the Galaxy S3 came a OnePlus One — the community phone of the era, shipped with CyanogenOS, later moved to OxygenOS, and I ended up running Tuga Power as my daily ROM. Through the OnePlus One Italia Telegram group I discovered a whole world: international XDA communities, development threads, changelogs, and the way custom ROM developers actually work. That door never closed. After the OnePlus One came a Redmi Note 3 Pro (kenzo), a Redmi Note 5 Pro (whyred), and today I'm on a OnePlus 8T — still modded.
 
-During the same years I started doing the same with my PC. I upgraded the RAM back when 8GB felt like a lot, installed every version of Windows as it came out, and when Windows 10 arrived I began modifying it systematically to make it lighter and more personal. That mindset eventually moved into Linux, self-hosting, automation, and a concrete interest in security and DevSecOps.
+During the same years I started doing the same with my PC. I upgraded the RAM back when 8GB felt like a lot, installed every version of Windows as it came out, and when Windows 10 arrived I began modifying it systematically to make it lighter and more personal. That mindset eventually moved into Linux, self-hosting, automation, and a concrete path in cybersecurity and DevSecOps.
 
 ---
 
@@ -126,48 +129,48 @@ My PC is called **Frankenstein** — a Lenovo IdeaPad Gaming 3 (15ACH6) rebuilt 
 | Display | 165 Hz panel (replaced) |
 | Cooling | Arctic MX-7 thermal paste &nbsp;&middot;&nbsp; light OC via MSI Afterburner |
 
-It dual boots **Windows 11** — stripped down with ChrisTitus tool and Winhance, customized visually with Windhawk and Start11 v2 — and **Pop!_OS**, where I do most of my actual work. Virtual machines live on a shared SSD partition, accessible from both systems.
+My daily driver is now **GarudaOS (Arch Linux, CachyOS kernel)**, where I do all of my day-to-day work, dual-booted alongside a stripped-down **Windows 11** partition (ChrisTitus tool, Winhance, Windhawk, Start11 v2). Virtual machines live on a shared SSD partition, accessible from both systems.
 
 ---
 
 ### The server
 
-A separate MX Linux machine that handles everything:
+A separate **Debian** machine running my self-hosted infrastructure (documented in [homeserver-infrastructure](https://github.com/Neniku/homeserver-infrastructure)):
 
-- Jellyfin media server
-- Various self-hosted services in Docker containers
+- Modular Docker Compose stacks with an isolated, hardened PostgreSQL database
+- Jellyfin media server and internal services for our family business
 - Dedicated Palworld server for me, my brother-in-law and my nephews
-- Everything exposed through Tailscale and an Nginx reverse proxy
+- Zero exposed ports: everything accessed through a Zero Trust mesh VPN (Tailscale), Nginx reverse proxy, and encrypted nightly backups via Systemd Timers
 
 ---
 
 ### What I work with
 
 <details>
-<summary>Systems & infrastructure</summary>
+<summary>Systems &amp; infrastructure</summary>
 
-Linux (Debian, Pop!_OS, MX Linux), Docker, Tailscale, Nginx, Windows
+Linux (GarudaOS / Arch Linux, Debian, Ubuntu), Docker, Docker Compose, Podman, Kubernetes, Helm, Tailscale, Nginx, Windows
 
 </details>
 
 <details>
-<summary>Scripting & automation</summary>
+<summary>Scripting &amp; automation</summary>
 
-Bash, Python, YAML, GitHub Actions
+Bash, Python, PowerShell, YAML, GitHub Actions
 
 </details>
 
 <details>
 <summary>Security</summary>
 
-Trivy, OWASP ZAP, SBOM and supply chain analysis, DAST pipelines, FlareVM, CAINE
+Wazuh SIEM (FIM, custom detection rules), Hadolint, Gitleaks, Trivy, Semgrep, OWASP ZAP, Nmap, Wireshark, tcpdump, Burp Suite, Metasploit, REMnux, FLARE VM, CAINE
 
 </details>
 
 <details>
 <summary>Homelab</summary>
 
-Jellyfin, Sonarr, Radarr, MedicatedUSB, custom bootable USB environments
+Jellyfin, Sonarr, Radarr, PostgreSQL, MedicatedUSB, custom bootable USB environments
 
 </details>
 
@@ -175,16 +178,19 @@ Jellyfin, Sonarr, Radarr, MedicatedUSB, custom bootable USB environments
 
 ### Currently studying
 
-- Container vulnerability scanning and SBOM generation
-- DAST integration in CI/CD pipelines
-- ZFS management
-- GPU transcoding for the media server
+- Preparing for the **CompTIA CySA+ (Cybersecurity Analyst)** certification
+- Detection engineering and custom rules on **Wazuh SIEM**
+- Container vulnerability scanning, SBOM generation, and SAST/DAST integration in CI/CD pipelines
+- ZFS management and GPU transcoding for the media server
 
 ---
 
 ### Projects
 
-- [Backup_script_Cyborg](https://github.com/Neniku/Backup_script_Cyborg) — Bash script for automated backups with encryption, SHA256 verification, redundant upload to SFTP and SMB, checkpoint/resume on interruption, and a final HTML report. Evolution of [Backup_script_Umano](https://github.com/Neniku/Backup_script_Umano).
+- [homeserver-infrastructure](https://github.com/Neniku/homeserver-infrastructure) — complete architecture of my Debian Home Server: modular Docker Compose stacks, Zero Trust networking with Tailscale (zero exposed ports), isolated and hardened PostgreSQL, custom monitoring, and encrypted nightly backups via Systemd Timers.
+- [devsecops-journey](https://github.com/Neniku/devsecops-journey) — intensive hands-on track covering Docker, container hardening (`cap_drop`, `no-new-privileges`, Docker Secrets), GitHub Actions pipelines (Hadolint, Gitleaks, Trivy with SARIF reports), Kubernetes, Helm, Wazuh SIEM, and Incident Response.
+- [Backup_script_Cyborg](https://github.com/Neniku/Backup_script_Cyborg) — Bash CLI/GUI (Zenity) suite for automated backups with AES-256 encryption, SHA-256 verification, redundant upload to SFTP and SMB, checkpoint/resume on interruption, and a final HTML report. Evolution of [Backup_script_Umano](https://github.com/Neniku/Backup_script_Umano).
+- [android-adb-exploit-research](https://github.com/Neniku/android-adb-exploit-research) — educational PoC conducted in an authorized lab environment on exposed ADB interfaces (TCP 5555) on Android/IoT devices, including countermeasure analysis and device restoration.
 - [Metodi_Di_Compressione](https://github.com/Neniku/Metodi_Di_Compressione) — notes and slides on common compression algorithms and their real-world use cases.
 - [ScanPy](https://github.com/GruppoDueMAEMA/ScanPy) — school group project: multi-threaded Python network scanner for host discovery, TCP/UDP scans, and passive OS fingerprinting.
 
@@ -194,4 +200,4 @@ Jellyfin, Sonarr, Radarr, MedicatedUSB, custom bootable USB environments
 
 Kingdom Hearts and Yu-Gi-Oh have been taking up most of my free time lately. I also host a Palworld server for the family, which means I spend more time managing the server than actually playing.
 
-[LinkedIn](https://www.linkedin.com/in/eleonardo-bajramovski-7599a7372/)
+[LinkedIn](https://www.linkedin.com/in/eleonardo-bajramovski/)
