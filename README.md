@@ -72,7 +72,9 @@ Una macchina dedicata con **Debian 13 (Trixie)** (Intel Core i3-12100 con iGPU U
 
 ### Fuori dallo schermo
 
-Ultimamente Kingdom Hearts e Yu-Gi-Oh si stanno prendendo buona parte del tempo libero. Ospito anche un server di Palworld per la famiglia, il che significa che passo più tempo a gestire il server che a giocare davvero.
+Quando stacco dal lavoro o dallo studio finisco quasi sempre su **Kingdom Hearts** e **Yu-Gi-Oh!**: il primo per gli incastri di trama e lore da ricostruire pezzo per pezzo, il secondo perché gestire catene di effetti, priorità, ruling e tempistiche è praticamente problem solving applicato a un tavolo da gioco (lo stesso approccio mentale che uso quando devo seguire una catena di log o isolare un bug).
+
+In realtà, però, buona parte del mio "tempo libero" lo passo comunque a fare **debugging e beta testing di custom ROM e kernel modificati per il mio OnePlus 8T (`kebab`)** — tra flash di build di test, raccolta log e feedback ai maintainer — esattamente come col server di **Palworld** che ospito per la famiglia, dove passo più tempo a gestire il server che a giocare davvero.
 
 [LinkedIn](https://www.linkedin.com/in/eleonardo-bajramovski/) &nbsp;&middot;&nbsp; [eleonardo.b@proton.me](mailto:eleonardo.b@proton.me)
 
@@ -144,6 +146,8 @@ A dedicated **Debian 13 (Trixie)** machine (Intel Core i3-12100 with UHD 730 Qui
 
 ### Outside the screen
 
-Kingdom Hearts and Yu-Gi-Oh have been taking up most of my free time lately. I also host a Palworld server for the family, which means I spend more time managing the server than actually playing.
+When I step away from studying or server work, I usually end up on **Kingdom Hearts** and **Yu-Gi-Oh!**: the former for its intricate lore and storyline puzzles, the latter because resolving complex effect chains, timings, and rulings is basically structured troubleshooting in card-game form (the exact same mindset I use when tracing logs or isolating a bug).
+
+In practice, though, a large chunk of my "free time" still goes into **debugging and beta-testing custom ROMs and modified kernels for my OnePlus 8T (`kebab`)** — flashing test builds, pulling logs, and reporting issues back to maintainers — much like the family **Palworld** server I host, where I spend more time managing the server than actually playing.
 
 [LinkedIn](https://www.linkedin.com/in/eleonardo-bajramovski/) &nbsp;&middot;&nbsp; [eleonardo.b@proton.me](mailto:eleonardo.b@proton.me)
