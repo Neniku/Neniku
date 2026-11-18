@@ -30,7 +30,7 @@ Il mio PC si chiama **Frankenstein** — un Lenovo IdeaPad Gaming 3 (15ACH6) mod
 | Display | Pannello da 165 Hz (sostituito) |
 | Raffreddamento | Pasta termica Arctic MX-7 &nbsp;&middot;&nbsp; overclock leggero via MSI Afterburner |
 
-Il mio daily driver ormai è **GarudaOS (Arch Linux, kernel CachyOS)**, dove faccio tutto il lavoro quotidiano, affiancato in dual boot da una partizione **Windows 11** alleggerita (ChrisTitus tool, Winhance, Windhawk, Start11 v2). Le macchine virtuali vivono su una partizione SSD condivisa, raggiungibile da entrambi i sistemi.
+Oggi gira interamente su **GarudaOS (Arch Linux, kernel CachyOS)**, dopo aver abbandonato definitivamente il dual boot con Windows (che ormai tengo solo in macchine virtuali isolate quando serve per laboratori o analisi).
 
 ---
 
@@ -129,7 +129,7 @@ My PC is called **Frankenstein** — a Lenovo IdeaPad Gaming 3 (15ACH6) rebuilt 
 | Display | 165 Hz panel (replaced) |
 | Cooling | Arctic MX-7 thermal paste &nbsp;&middot;&nbsp; light OC via MSI Afterburner |
 
-My daily driver is now **GarudaOS (Arch Linux, CachyOS kernel)**, where I do all of my day-to-day work, dual-booted alongside a stripped-down **Windows 11** partition (ChrisTitus tool, Winhance, Windhawk, Start11 v2). Virtual machines live on a shared SSD partition, accessible from both systems.
+It now runs entirely on **GarudaOS (Arch Linux, CachyOS kernel)** after dropping the Windows dual boot for good (Windows now only lives inside isolated virtual machines when needed for labs or analysis).
 
 ---
 
